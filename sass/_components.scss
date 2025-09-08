@@ -108,6 +108,10 @@
     color: #fff;
     top: 1.5rem;
     right: 1.1rem;
+
+    @media only screen and (max-width: $bp-xs) {
+      top: 0;
+    }
   }
 
   &__user-photo {
