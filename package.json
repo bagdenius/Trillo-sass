@@ -6,7 +6,7 @@
     "compile-sass": "sass sass/main.scss css/main.compiled.css",
     "prefix-css": "postcss --use autoprefixer -b 'last 10 versions' css/main.compiled.css -o css/main.prefixed.css",
     "compress-css": "sass css/main.prefixed.css css/main.css --style compressed",
-    "build": "npm-run-all compile-sass concat-css prefix-css compress-css"
+    "build": "npm-run-all compile-sass prefix-css compress-css"
   },
   "repository": {
     "type": "git",
